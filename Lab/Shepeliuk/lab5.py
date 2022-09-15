@@ -1,8 +1,8 @@
 #Task 1
-def maxList(list):
-    return max(list)
-list = [3,4,2,3,4,23,4,2,]
-print(maxList(list))
+# def maxList(list):
+#     return max(list)
+# list = [3,4,2,3,4,23,4,2,]
+# print(maxList(list))
 
 # Task 2
 # def lenString(str):
