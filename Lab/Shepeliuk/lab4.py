@@ -16,9 +16,17 @@
 # else:
 #     print("Є одинакові")
 
-#Task 5
-from ast import operator
-from collections import Counter
-dict = { 1:'Mon', 2:'Tue', 3:'Wed', 4:'Thu', 5:'Sat', 6:'Sat', 7:'Sun' }
-values = list(dict.values())
-count = operator.countOf(values, а)
+#Task 6
+# dict = { 1:'Mon', 2:'Tue', 3:'Wed', 4:'Thu', 5:'Fri', 6:'Sat', 7:'Sun' }
+# i = 1
+# while i < len(dict):
+#     if(i%2==0):
+#         print(dict[i])
+#     i = i+1
+
+#Task 7 
+# dict = { 1:'Mon', 2:'Tue', 3:'aed', 4:'ahu', 5:'Fri', 6:'Sat', 7:'Sun' }
+# for i in dict.copy():
+#     if dict[i].startswith('a',0):
+#         del (dict[i])
+# print(dict)
