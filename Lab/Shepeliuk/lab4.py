@@ -21,4 +21,4 @@ from ast import operator
 from collections import Counter
 dict = { 1:'Mon', 2:'Tue', 3:'Wed', 4:'Thu', 5:'Sat', 6:'Sat', 7:'Sun' }
 values = list(dict.values())
-count = operator.countOf(values, )
+count = operator.countOf(values, а)
