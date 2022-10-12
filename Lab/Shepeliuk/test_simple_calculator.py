@@ -24,7 +24,7 @@ class MyTestCase(unittest.TestCase):
         result = self.calculator.sum(10,5)
         self.assertEqual(result, 15)
 
-    def test_substraction_two_integers(self):
+    def test_subtraction_two_integers(self):
         result = self.calculator.sub(10,5)
         self.assertEqual(result, 5)
 
@@ -32,7 +32,7 @@ class MyTestCase(unittest.TestCase):
         result = self.calculator.mult(10,5)
         self.assertEqual(result, 50)
 
-    def test_division_two_integers(self):
+    def test_divide_two_integers(self):
         result = self.calculator.div(10,5)
         self.assertEqual(result, 2)
 
